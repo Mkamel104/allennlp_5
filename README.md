@@ -4,11 +4,11 @@ We will be building and training a  sentiment Analyzer using AllenNLP. Sentiment
 # Training: 
 1. We will run below command for three different config files. (replace (name) with the name of config file)
 
-          allennlp train name.json -s ./output/name --include-package model
+          allennlp train config/name.json -s ./output/name --include-package model
           
           
 # Evaluation: 
-1. By runing below command and using test.txt file we can evaluate each model
+1. By runing below command and using test.txt file we can evaluate each model. (replace (name) with the correct name of the output)
 
           allennlp evaluate output/name/model.tar.gz  test.txt --include-package model
           
