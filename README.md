@@ -16,7 +16,7 @@ We will be building and training a  sentiment Analyzer using AllenNLP. Sentiment
           
 # Prediction:
           
-          allennlp predict output/name/model.tar.gz test.txt --include-package classifiers --predictor predictor
+          allennlp predict output/name/model.tar.gz test.txt --include-package model --predictor predictor
           
 
 
