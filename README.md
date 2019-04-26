@@ -1,4 +1,4 @@
-# raining a Sentiment Analyzer using AllenNLP
+# Training a Sentiment Analyzer using AllenNLP
 We will be building and training a  sentiment Analyzer using AllenNLP. Sentiment analysis is a popular text analytic technique used in the automatic identification and categorization of subjective information within text. In this repo we used three different method to train and predict for sentiment, baseline (no ELMO/BERT), ELMO, BERT. We need to build three config files one for each method.
 
 # Training: 
