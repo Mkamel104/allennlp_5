@@ -1,0 +1,5 @@
+{"sentence": "I hate that movie, Its really bad"}
+{"sentence": "This is the best movie I have ever seen, amazing and good job"}
+{"sentence": "I had the best time of my life watching this movie."}
+{"sentence": "The acting work was perfect and I really loved the settings."}
+{"sentence": "The worst sound ever"}

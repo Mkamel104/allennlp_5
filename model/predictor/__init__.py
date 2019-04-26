@@ -1,0 +1,1 @@
+from model.predictor.class_predictor import ClassifierPredictor
