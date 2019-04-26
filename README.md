@@ -10,7 +10,13 @@ We will be building and training a  sentiment Analyzer using AllenNLP. Sentiment
 # Evaluation: 
 1. By runing below command and using test.txt file we can evaluate each model
 
-          allennlp evaluate /output/name/model.tar.gz  test.txt --include-package model
+          allennlp evaluate output/name/model.tar.gz  test.txt --include-package model
+          
+          
+          
+# Prediction:
+          
+          allennlp predict output/name/model.tar.gz test.txt --include-package classifiers --predictor predictor
           
 
 
